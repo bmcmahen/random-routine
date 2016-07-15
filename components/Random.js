@@ -154,7 +154,8 @@ export default class RandomList extends React.Component {
               {editing && (
                 <InputAddRow
                   condensed
-                  label='Add Item'
+                  labelColor='primary'
+                  label='Add Routine Item'
                   onPress={this._addNew.bind(this)}
                 />
               )}

@@ -79,7 +79,7 @@ export default class AddRandomCollection extends React.Component {
     return (
         <Base flex={1} backgroundColor='white'>
           <NavBar
-            title='Add Random Collection'
+            title='Add Routine'
             LeftButton={
               <NavTouchableIcon
                 onPress={() => this.props.onRequestClose()}
@@ -136,7 +136,7 @@ export default class AddRandomCollection extends React.Component {
                 key='add-row'
                 condensed
                 labelColor='primary'
-                label='Add Item'
+                label='Add Routine Item'
                 onPress={this._addNew.bind(this)}
               />
             </InputGroup>
